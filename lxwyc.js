@@ -25,10 +25,10 @@ else{document.getElementById('id_ans4').innerHTML = '';}
 }
 else
 {
-document.getElementById('id_ans1').innerHTML = '<a href="javascript:ans1();"><p>1、' + list1[numflag][3] + '</p></a>';
-document.getElementById('id_ans2').innerHTML = '<a href="javascript:ans2();"><p>2、' + list1[numflag][4] + '</p></a>';
-document.getElementById('id_ans3').innerHTML = '<a href="javascript:ans3();"><p>3、' + list1[numflag][5] + '</p></a>';
-document.getElementById('id_ans4').innerHTML = '<a href="javascript:ans4();"><p>4、' + list1[numflag][6] + '</p></a>';
+document.getElementById('id_ans1').innerHTML = '<a href="javascript:ans1();"><p>a、' + list1[numflag][3] + '</p></a>';
+document.getElementById('id_ans2').innerHTML = '<a href="javascript:ans2();"><p>b、' + list1[numflag][4] + '</p></a>';
+document.getElementById('id_ans3').innerHTML = '<a href="javascript:ans3();"><p>c、' + list1[numflag][5] + '</p></a>';
+document.getElementById('id_ans4').innerHTML = '<a href="javascript:ans4();"><p>d、' + list1[numflag][6] + '</p></a>';
 document.getElementById('id_xd').innerHTML = '<a href="javascript:ansOK();">多选题，点击选项后点此确定</a>';
 document.getElementById('id_xd').style.display = '';
 }
